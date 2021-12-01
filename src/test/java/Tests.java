@@ -16,6 +16,7 @@ public class Tests {
         int lottoId=js.getInt("lotto.lottoId");
         System.out.println("Lotto ID: "+ lottoId);
         Assert.assertNotNull(lottoId);
+        //Or can also Assert.assertEquals(lottoId,5);
     }
     @Test
     public void validateWinnersDetails()
